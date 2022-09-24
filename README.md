@@ -1,4 +1,7 @@
-# XMRig
+# XMRig-no-dev-donate
+
+this version of xmrig does not donate to its devs and taunts you about it. 
+Seriously, you are a dickhead
 
 [![Github All Releases](https://img.shields.io/github/downloads/xmrig/xmrig/total.svg)](https://github.com/xmrig/xmrig/releases)
 [![GitHub release](https://img.shields.io/github/release/xmrig/xmrig/all.svg)](https://github.com/xmrig/xmrig/releases)
