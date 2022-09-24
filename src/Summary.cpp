@@ -206,6 +206,7 @@ static void print_commands(Config *)
 
 void xmrig::Summary::print(Controller *controller)
 {
+    
     const auto config = controller->config();
 
     config->printVersions();
@@ -216,6 +217,7 @@ void xmrig::Summary::print(Controller *controller)
     config->pools().print();
 
     print_commands(config);
+    Log::print("NO DEV DONATION?! REALLY????? UR SUCH A DICKHEAD! WHAHAPPENED TO THE WHOLE SUPPORT THE NETWORK THING????");
 }
 
 

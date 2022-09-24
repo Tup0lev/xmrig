@@ -233,7 +233,7 @@ void xmrig::Network::onResultAccepted(IStrategy *, IClient *, const SubmitResult
                  backend_tag(result.backend), m_state->accepted(), m_state->rejected(), diff, scale, error, result.elapsed);
     }
     else {
-        LOG_INFO("%s " GREEN_BOLD("accepted") " (%" PRId64 "/%" PRId64 ") diff " WHITE_BOLD("%" PRIu64 "%s") " " BLACK_BOLD("(%" PRIu64 " ms)"),
+        LOG_INFO("%s " GREEN_BOLD("accepted") " (%" PRId64 "/%" PRId64 ") diff " WHITE_BOLD("%" PRIu64 "%s") " " BLACK_BOLD("(%" PRIu64 " ms)") RED_BOLD("DUUUUUDE! Devs aren't gonna be happy with u not donating!!!") ,
                  backend_tag(result.backend), m_state->accepted(), m_state->rejected(), diff, scale, result.elapsed);
     }
 }
